@@ -9,7 +9,7 @@ import './bootstrap.min.css'
 import axios from 'axios'
 
 
-axios.defaults.baseURL = 'https://english-dutch-auction-api.herokuapp.com/'
+axios.defaults.baseURL = 'http://english-dutch-auction-api.herokuapp.com/'
 
 
 ReactDOM.render(

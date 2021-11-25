@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "proxy": "https://english-dutch-auction-api.herokuapp.com",
+  "proxy": "http://english-dutch-auction-api.herokuapp.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

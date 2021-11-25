@@ -15,7 +15,7 @@ function DutchAuctionDetailScreen({match, history}) {
     const [newPrice, setNewPrice] = useState(0)
     const [openingDate, setOpeningDate] = useState('')
 
-    const socket = new WebSocket(`ws://localhost:8000/ws/auction/`);
+    const socket = new WebSocket(`ws://http://english-dutch-auction-api.herokuapp.com/ws/auction/`);
     socket.onopen = (data) => {
         console.log('open socket')
     }
