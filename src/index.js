@@ -1,4 +1,4 @@
-import React from 'react';
+import Rehttp://127.0.0.1:8000/act from 'react';
 import ReactDOM from 'react-dom';
 import { Provider, useSelector } from 'react-redux'
 import store from './store'
@@ -9,7 +9,7 @@ import './bootstrap.min.css'
 import axios from 'axios'
 
 
-axios.defaults.baseURL = 'http://127.0.0.1:8000/'
+axios.defaults.baseURL = 'https://english-dutch-auction-api.herokuapp.com/'
 
 
 ReactDOM.render(
