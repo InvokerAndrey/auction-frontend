@@ -1,4 +1,4 @@
-import Rehttp://127.0.0.1:8000/act from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider, useSelector } from 'react-redux'
 import store from './store'
